@@ -2,13 +2,7 @@
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jll4e-saaaa-aaaal-aj2eq-cai.icp0.io/)
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-    <img src="assets/internet-computer-icp-logo.svg" alt="Juno Logo" height="50">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="assets/juno_logo.svg"alt="Internet Computer Logo" height="50">
-</div>
 
-<br>
-<br>
 
 JupyterLite deployed to the [Internet Computer Blockchain](https://internetcomputer.org/) using [Juno](https://juno.build). 
 
@@ -30,5 +24,6 @@ A fork of the [JupyterLite Juno Demo](https://github.com/jupyterlite/jupyterlite
 
 ## Further Information
 
-- Juno Docs: https://juno.build/docs/
-- Internet Computer Docs: https://internetcomputer.org/docs/current/developer-docs/getting-started/overview-of-icp
+<img src="assets/juno_logo.svg" alt="Juno Logo" height="20">&nbsp;&nbsp;&nbsp;&nbsp; https://juno.build/docs/ 
+
+<img src="assets/internet-computer-icp-logo.svg" alt="Juno Logo" height="20">&nbsp;&nbsp;&nbsp;&nbsp;  https://internetcomputer.org/docs/current/developer-docs/getting-started/overview-of-icp &nbsp;&nbsp;&nbsp;&nbsp;
