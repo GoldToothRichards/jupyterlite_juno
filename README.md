@@ -26,7 +26,7 @@ A fork of the [JupyterLite Juno Demo](https://github.com/jupyterlite/jupyterlite
 - Follow the instructions at https://juno.build/docs/add-juno-to-an-app/create-a-satellite to create your own satellite.
 - Generate a new controller for your satellite from the juno console and add the token into the `JUNO_TOKEN` environment variable in your GitHub Actions secrets.
 - Create your jupyter notebook and add it to the `content` folder.
-- Push your changes to the main branch and your website will be deployed to the internet computer.
+- Push your changes to the main branch and your notebook will be deployed to the internet computer.
 
 ## Further Information
 
