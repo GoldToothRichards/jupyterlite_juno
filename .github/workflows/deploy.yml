@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - '*'
 
 jobs:
   build:
@@ -25,24 +22,19 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          path: ./dist
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
 
-  deploy:
-    needs: build
-    if: github.ref == 'refs/heads/main'
-    permissions:
-      pages: write
-      id-token: write
+      - name: Install Juno CLI
+        run: npm install -g @junobuild/cli
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to Juno
+        uses: junobuild/juno-action@main
+        with:
+          args: deploy
+        env:
+          JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
