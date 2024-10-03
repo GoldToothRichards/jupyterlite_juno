@@ -2,12 +2,9 @@
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jll4e-saaaa-aaaal-aj2eq-cai.icp0.io/)
 
+JupyterLite deployed to the [Internet Computer Blockchain](https://internetcomputer.org/) using [Juno](https://juno.build).
 
-
-JupyterLite deployed to the [Internet Computer Blockchain](https://internetcomputer.org/) using [Juno](https://juno.build). 
-
-
-A fork of the [JupyterLite Juno Demo](https://github.com/jupyterlite/jupyterlite-demo-juno) with some modifications to the `deploy.yml` workflow to deploy to the Internet Computer Blockchain using Juno.
+A fork of [JupyterLite Demo](https://github.com/jupyterlite/demo) with some modifications to the `deploy.yml` workflow.
 
 ## ✨ Try it in your browser ✨
 
