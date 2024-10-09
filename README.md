@@ -22,6 +22,5 @@ A fork of [JupyterLite Demo](https://github.com/jupyterlite/demo) with some modi
 
 ## Further Information
 
-<img src="assets/juno_logo.svg" alt="Juno Logo" height="20">&nbsp;&nbsp;&nbsp;&nbsp; https://juno.build/docs/ 
-
-<img src="assets/internet-computer-icp-logo.svg" alt="Juno Logo" height="20">&nbsp;&nbsp;&nbsp;&nbsp;  https://internetcomputer.org/docs/current/developer-docs/getting-started/overview-of-icp &nbsp;&nbsp;&nbsp;&nbsp;
+- https://juno.build/docs/ 
+- https://internetcomputer.org/docs/current/developer-docs/
